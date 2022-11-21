@@ -26,5 +26,4 @@ internal class ReverseStringTest(val input: String, val expected: Any) {
                 )
         }
     }
-
 }

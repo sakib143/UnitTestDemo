@@ -28,5 +28,4 @@ internal class PasswordValidationTest (val password: String, val expected: Boole
                 )
         }
     }
-
 }
