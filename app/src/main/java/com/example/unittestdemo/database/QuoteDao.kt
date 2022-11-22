@@ -21,5 +21,4 @@ interface QuoteDao {
 
     @Query("SELECT * FROM quote")
     fun getQuote () : LiveData<List<Quote>>
-
 }

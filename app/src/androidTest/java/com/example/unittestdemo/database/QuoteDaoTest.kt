@@ -33,6 +33,7 @@ class QuoteDaoTest {
         quoteDabae.close()
     }
 
+    //runBlocking will block the thread and execute only one thread untill testing will get completed
     @Test
     fun insertQuote_expected_single_Quote() = runBlocking {
         val quote = Quote(1,"first","sakib")
