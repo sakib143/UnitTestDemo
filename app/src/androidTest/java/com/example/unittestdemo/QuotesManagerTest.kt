@@ -16,13 +16,6 @@ internal class QuotesManagerTest {
         quotesManager.populateQuoteFromAsset(context,"")
     }
 
-    @Test(expected = JsonSyntaxException::class)
-    fun poulateQuoteFromAsset_invalid_json() {
-        val quotesManager = QuotesManager()
-        val context = ApplicationProvider.getApplicationContext<Context>()
-        quotesManager.populateQuoteFromAsset(context,"malformed.json")
-    }
-
     @Test
     fun populate_valid_json_file() {
         val quotesManager = QuotesManager()
