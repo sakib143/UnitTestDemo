@@ -36,10 +36,5 @@ class QuotesManagerTest {
         sut.populateQuoteFromAsset(context,"")
         val quote = sut.getCurrentQuote()
         Assert.assertEquals("Well begun is half done",quote.text)
-
-
-
-
-
     }
 }
