@@ -27,4 +27,5 @@ class ParameterizedTestCase(val input: String, val expectedValue : Boolean) {
                 )
         }
     }
+    
 }
